@@ -21,7 +21,7 @@ There are 3 modes to use WYOL.
             
 1) Inside the target folder, enter "rat". Dirtyrat will lint all JS files, including subfolders recursively, except when the name of the folder is IGNORE.
 
-2) Enter "rat example.js". WYOL will lint just example.js.
+2) Enter ```"rat example.js"``` WYOL will lint just example.js.
 
 3) Enter "rat example.html". WYOL will lint all JS files that are linked by example.html as long as the links follow exactly the syntax shown below (whitespaces are meaningful). Any linked script that is not supposed to be linted like (Google Analytics, for example) must have its link written in a slightly different syntax, like inserting an excedent whitespace.
 
